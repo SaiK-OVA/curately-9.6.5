@@ -12,7 +12,7 @@
 # production
 /build
 /curatelyadmin
-/curately
+# /curately
 
 # misc
 .DS_Store
