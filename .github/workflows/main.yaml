@@ -13,14 +13,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
-      - name: Print env
-        run: env
-      
-      - name: Print Arguments
-        run : echo ${{ inputs.args }}
-        
-
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
@@ -37,7 +29,7 @@ jobs:
         with:
           args: --acl public-read
         env:
-          SOURCE_DIR: curately/
+          SOURCE_DIR: curately
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
