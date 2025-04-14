@@ -1,0 +1,1 @@
+import{k as t}from"./Cgppv_Sf.js";function r(){return t.jsxDEV(t.Fragment,{},void 0,!1,{fileName:"D:/AWS-CURATELY-9.6.5/curately-9.6.5/curately-9.6.5/src/shared/styles/BootstrapCSS.tsx",lineNumber:6,columnNumber:12},this)}export{r as default};

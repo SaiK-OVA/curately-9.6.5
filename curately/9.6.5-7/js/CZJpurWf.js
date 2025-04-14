@@ -1,0 +1,1 @@
+import{k as e}from"./Cgppv_Sf.js";function r(){return e.jsxDEV(e.Fragment,{},void 0,!1,{fileName:"D:/AWS-CURATELY-9.6.5/curately-9.6.5/curately-9.6.5/src/shared/styles/TextCSS.tsx",lineNumber:4,columnNumber:12},this)}export{r as default};
