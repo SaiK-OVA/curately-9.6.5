@@ -676,8 +676,6 @@ const Home = () => {
 
     return (
         <div className='home_main'>
-             <h1>Testing</h1>
-             <h2>Testing from vs code</h2>
             <Card className='pt-1 card_main'>
                 <Grid
                     container
