@@ -9,9 +9,9 @@
 # testing
 /coverage
 
-# production
-/build
-/curatelyadmin
+# # production
+# /build
+# /curatelyadmin
 # /curately
 
 # misc

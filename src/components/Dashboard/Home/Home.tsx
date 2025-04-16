@@ -676,6 +676,7 @@ const Home = () => {
 
     return (
         <div className='home_main'>
+            <h1>Initial commit in AWS</h1>
             <Card className='pt-1 card_main'>
                 <Grid
                     container
