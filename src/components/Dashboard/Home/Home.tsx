@@ -677,12 +677,6 @@ const Home = () => {
     return (
         <div className='home_main'>
             <h1>Initial commit in AWS</h1>
-            <h2> Secondary commit to AWS</h2>
-            <h3> Third commit to AWS</h3>
-            <h4> Fourth commit to AWS</h4>
-            <h5> Fifth commit to AWS</h5>
-            <h6> Sixth commit to AWS</h6>
-
 
             <h1>Initial commit in AWS after updating the Iam Cloudfront full access Policy</h1>
  
