@@ -1,4 +1,4 @@
-name: Curately 9.6.5 
+name: Curately 9.6.5
 
 on:
   push:
@@ -31,5 +31,15 @@ jobs:
         env:
           SOURCE_DIR: curately
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+  invalidate_cache:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Invalidate CloudFront Cache
+        run: |
+          aws cloudfront create-invalidation --distribution-id EXT4AFZ2WGEMK --paths '/*'
+        env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
