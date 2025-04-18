@@ -678,6 +678,7 @@ const Home = () => {
         <div className='home_main'>
             <h1>Initial commit in AWS</h1>
             <h1>Second commit in AWS</h1>
+            <h1>Third commit in AWS</h1>
  
             <Card className='pt-1 card_main'>
                 <Grid
