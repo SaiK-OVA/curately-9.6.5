@@ -677,12 +677,7 @@ const Home = () => {
     return (
         <div className='home_main'>
             <h1>Initial commit in AWS</h1>
-
-            <h1>Initial commit in AWS after updating the Iam Cloudfront full access Policy</h1>
-            <h1>Initial commit in AWS after updating the Iam Cloudfront full access Policy</h1>
-            <h1>Initial commit in AWS after updating the Iam Cloudfront full access Policy</h1>
-            <h1>Initial commit in AWS after updating the Iam Cloudfront full access Policy</h1>
-            <h1>Initial commit in AWS after updating the Iam Cloudfront full access Policy</h1>
+            <h1>Second commit in AWS</h1>
  
             <Card className='pt-1 card_main'>
                 <Grid
